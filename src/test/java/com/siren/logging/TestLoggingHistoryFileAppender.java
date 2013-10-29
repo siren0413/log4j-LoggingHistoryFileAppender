@@ -15,6 +15,7 @@ public class TestLoggingHistoryFileAppender {
 		LOGGER.info("1111111111");
 		LOGGER.info("fsadffffffffffaffffffffffffffff");
 		
-		LOGGER.info("+++++++++++++++++++++++++++++++++");
+		LOGGER.debug("+++++++++++++++++++++++++++++++++");
+		LOGGER.debug("-----------------");
 	}
 }
